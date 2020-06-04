@@ -1,7 +1,7 @@
 require 'pry'
 
 def key_for_min_value(name_hash)
-  lowest_value = ""
+  lowest_value = 0
   smallest_value = ""
   if name_hash == nil
     returns nil
