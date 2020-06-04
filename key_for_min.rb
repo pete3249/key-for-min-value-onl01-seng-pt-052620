@@ -7,7 +7,6 @@ def key_for_min_value(name_hash)
     if minimum_value == nil
       minimum_value = value
       minimum_item = item
-      binding.pry
     else
       if value < minimum_value
         minimum_value = value
